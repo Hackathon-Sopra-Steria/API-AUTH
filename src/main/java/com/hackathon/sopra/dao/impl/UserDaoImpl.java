@@ -4,8 +4,9 @@ import com.hackathon.sopra.dao.UserDao;
 import com.hackathon.sopra.dao.mapper.UserMapper;
 import com.hackathon.sopra.model.security.JwtUser;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
-
+@Repository
 public class UserDaoImpl implements UserDao {
     private UserMapper userMapper;
     @Autowired

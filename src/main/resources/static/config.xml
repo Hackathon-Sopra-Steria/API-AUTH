@@ -14,6 +14,7 @@
     </settings>
 
     <typeAliases>
+        <typeAlias alias="User" type="com.hackathon.sopra.model.entity.User"></typeAlias>
         <typeAlias alias="JwtUser" type="com.hackathon.sopra.model.security.JwtUser"></typeAlias>
     </typeAliases>
 
